@@ -37,9 +37,11 @@ function App() {
         role: "Developer", 
         img: "https://images.pexels.com/photos/6001808/pexels-photo-6001808.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       },
-
-    ]
-  );
+    ]);
+  
+  function updateEmployee(id, newName, newRole) {
+    
+  }
   const showEmployees = true;
   return (
     <div className="App">
